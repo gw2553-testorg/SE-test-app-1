@@ -49,7 +49,7 @@ template:
     function: APP            # [ APP | DBS | WEB | etc... ] - (Defatult APP)
     bim:  2008R2WebApp                # [ 2008SP2Base|2008SP2WebApp|2008R2Base|2008R2WebApp|2012R2Base|2012R2WebApp ] 
     localAdmins:  myAdminsGroup      # Local adimins group
-    networkArea:  MPN       # [ MPN (default) | DMZ-INET | DMZ-EXNET | DMZ-PCI | Other (Description) ]
+    networkArea:      # [ MPN (default) | DMZ-INET | DMZ-EXNET | DMZ-PCI | Other (Description) ]
 
 instances:
   winAppSrvGL1: &appGL
