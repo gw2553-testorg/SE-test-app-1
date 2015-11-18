@@ -67,6 +67,9 @@ instances:
     
   winAppSrvRO4: 
     <<: *appRO
+    appDrives:
+      d: 200
+      f: 500
   
   ltmWebGL1: 
     <<: *t_ltm
