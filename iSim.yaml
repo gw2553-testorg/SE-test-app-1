@@ -60,6 +60,12 @@ instances:
   winAppSrvGL4: 
     <<: *appGL
     
+  winAppSrvGL5: 
+    <<: *appGL
+    
+  winAppSrvGL6: 
+    <<: *appGL
+    
   winAppSrvRO3: &appRO
     <<: *t_webAppServer
     dataCenter : RO
@@ -77,6 +83,8 @@ instances:
     pool:
       - winAppSrvGL3
       - winAppSrvGL4
+      - winAppSrvGL5
+      - winAppSrvGL6
     
   ltmWebRO1: 
     <<: *t_ltm
