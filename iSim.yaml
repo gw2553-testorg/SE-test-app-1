@@ -2,7 +2,7 @@
 template:
   
   # GTM
-  gtml: &t_gtm
+  gtml: &t_gtm 
     eSHS: is_network_f5_gtm
     networkArea: MPN
     distribution: hot-standby                # [ hot-standby | round-robin | geographic ]
